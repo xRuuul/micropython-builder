@@ -1,0 +1,12 @@
+diff --git a/ports/esp32/esp32_common.cmake b/ports/esp32/esp32_common.cmake
+index dedef6d..4101b11 100644
+--- a/ports/esp32/esp32_common.cmake
++++ b/ports/esp32/esp32_common.cmake
+@@ -167,6 +167,7 @@ list(APPEND IDF_COMPONENTS
+     esp_eth
+     esp_event
+     esp_hw_support
++    esp_lcd
+     esp_netif
+     esp_partition
+     esp_pm
