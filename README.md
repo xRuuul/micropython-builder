@@ -183,3 +183,15 @@ $ make
 - Support menuconfig
 - More boards
 - Complete development documentation
+
+## Installing micropython firmware
+
+```bash
+esptool --chip esp32s3 --port <COM_PORT> --baud 460800 write_flash -z 0x0 <your_firmware.bin>
+```
+
+## Python REPL
+
+```bash
+python -m serial.tools.miniterm <COM_PORT> 115200
+```
