@@ -13,7 +13,7 @@ jobs:
     - name: Build T5-4.7 Plus
       run: |
         cp config_T5-4.7-Plus config
-        make
+        CFLAGS_EXTRA="-Wno-dangling-pointer" make
     - name: Deliver firmware
       uses: actions/upload-artifact@v4
       with:
