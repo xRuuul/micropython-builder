@@ -8,7 +8,7 @@ define esp32s3/info
 	PKG_SOURCE_PROTO:=git
 	PKG_SOURCE_VERSION:=v5.4.2
 	PKG_SOURCE_MD5:=
-	PKG_SOURCE_OPT:=--depth 1 --branch v4.4.4 --recurse-submodules
+	PKG_SOURCE_OPT:=--depth 1 --branch v5.4.2 --recurse-submodules
 endef
 
 # $(call DownloadMethod/git,$(PKG_NAME),$(PKG_SOURCE_URL),$(PKG_SOURCE_VERSION)) ;
